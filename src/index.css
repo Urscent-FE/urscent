@@ -3,9 +3,92 @@
 @tailwind utilities;
 
 :root {
-  --brandcolor: 80, 84, 220; /* #5054dc */
+  --brandcolor: 141, 36, 224; /* #8D24E0 */
+  --back-ground-basic: 248, 248, 248; /* #F8F8F8 */
+  --back-ground-basic2: 242, 242, 242; /* #F2F2F2 */
+  --gray1: 235, 235, 235; /* #EBEBEB */
+  --gray2: 224, 224, 224; /* #E0E0E0 */
+  --gray3: 209, 209, 209; /* #D1D1D1 */
+  --dark-gray-basic: 56, 56, 56; /* #383838 */
+  --dark-gray1: 41, 41, 41; /* #292929 */
+  --dark-gray2: 21, 21, 21; /* #151515 */
+  --mid-gray1: 77, 77, 77; /* #4D4D4D */
+  --mid-gray2: 91, 91, 91; /* #5B5B5B */
+  --icon: 99, 99, 99; /* #636363 */
 }
 
 * {
+  font-family: 'Pretendard Variable', 'Noto Sans KR', sans-serif;
   box-sizing: border-box;
+  font-size: 16px;
+  -ms-overflow-style: none; /* IE and 엣지 */
+  scrollbar-width: none; /* 파이어폭스 */
+}
+
+*::-webkit-scrollbar {
+  display: none;
+}
+
+.receipt {
+  @apply font-light text-[0.625rem] leading-[1.6];
+}
+
+.hashtag {
+  @apply font-normal text-[0.6875rem] leading-[1.7];
+}
+
+.smaller_medium {
+  @apply font-medium text-[0.8125rem] leading-[1.1];
+}
+
+.smaller_regular {
+  @apply font-normal text-[0.8125rem] leading-[1.1];
+}
+
+.description_thin {
+  @apply font-light text-[0.75rem] leading-[1.6];
+}
+
+.discription_basic {
+  @apply font-normal text-[0.75rem] leading-[1.2];
+}
+
+.description_bold {
+  @apply font-bold text-[0.75rem] leading-[1.1];
+}
+
+.description_160 {
+  @apply font-normal text-[0.75rem] leading-[1.6];
+}
+
+.small_title_medium {
+  @apply font-medium text-sm leading-[1.1];
+}
+
+.small_title_regular {
+  @apply font-normal text-sm leading-[1.1];
+}
+
+.small_title_bold {
+  @apply font-bold text-sm leading-[1.1];
+}
+
+.title_bold {
+  @apply font-bold text-base leading-[1.1];
+}
+
+.title_basic {
+  @apply font-normal text-base leading-[1.1];
+}
+
+.big_title_basic {
+  @apply font-normal text-xl leading-[1.1];
+}
+
+.big_title_bold {
+  @apply font-bold text-xl leading-[1.1];
+}
+
+.graprh {
+  @apply font-medium text-[0.625rem] leading-[1.6];
 }
