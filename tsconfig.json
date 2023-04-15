@@ -18,7 +18,10 @@
     "sourceMap": false,
     "alwaysStrict": false,
     "baseUrl": ".",
-    "composite": true
+    "composite": true,
+    "paths": {
+      "@/*": ["src/*"]
+    }
   },
   "include": ["src", "vite.config.ts"]
 }
