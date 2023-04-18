@@ -4,7 +4,7 @@ import { MainHeader } from '@/components/MainHeader';
 export const MainPageLayout = () => {
   return (
     <div className="w-full">
-      <div className="max-w-7xl mx-auto">
+      <div className="max-w-[90rem] mx-auto">
         <MainHeader />
         <main className="flex justify-center">
           <Outlet />

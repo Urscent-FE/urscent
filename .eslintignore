@@ -8,3 +8,4 @@ dist/
 .eslintrc.js
 .eslintrc
 env.d.ts
+index.html

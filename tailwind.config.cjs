@@ -7,7 +7,13 @@ module.exports = {
       colors: {
         brand: {
           DEFAULT: 'rgb(var(--brandcolor))',
-          20: 'var(--brandcolor), 0.2)',
+          20: 'rgba(var(--brandcolor), 0.2)',
+          30: 'rgba(var(--brandcolor), 0.3)',
+          40: 'rgba(var(--brandcolor), 0.4)',
+          50: 'rgba(var(--brandcolor), 0.5)',
+          60: 'rgba(var(--brandcolor), 0.6)',
+          70: 'rgba(var(--brandcolor), 0.7)',
+          80: 'rgba(var(--brandcolor), 0.8)',
         },
         background: {
           basic: 'rgb(var(--back-ground-basic))',
@@ -36,13 +42,8 @@ module.exports = {
     },
     screens: {
       sm: '370px',
-      // => @media (min-width: 576px) { ... }
-
       md: '810px',
-      // => @media (min-width: 960px) { ... }
-
       lg: '1200px',
-      // => @media (min-width: 1440px) { ... }
     },
   },
   plugins: [],

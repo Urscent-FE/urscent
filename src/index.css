@@ -29,66 +29,222 @@
   display: none;
 }
 
-.receipt {
-  @apply font-light text-[0.625rem] leading-[1.6];
+.title {
+  color: #111111;
+  font-weight: 900;
+  font-size: 1.5rem;
+  line-height: 1.2;
+}
+
+.subtitle {
+  color: #333333;
+  font-weight: 700;
+  font-size: 0.9375rem;
+  line-height: 1.4;
+}
+
+.section-title {
+  color: #333333;
+  font-weight: 700;
+  font-size: 0.75rem;
+  line-height: 1.4;
+}
+
+.brand {
+  color: #5b5b5b;
+  font-weight: 400;
+  font-size: 0.75rem;
+  line-height: 1.1;
+}
+
+.brand2 {
+  color: #5b5b5b;
+  font-weight: 700;
+  font-size: 0.75rem;
+  line-height: 1.1;
+}
+
+.description-basic {
+  color: #000000;
+  font-weight: 400;
+  font-size: 0.875rem;
+  line-height: 1.2;
+}
+
+.description-bold {
+  color: #000000;
+  font-weight: 700;
+  font-size: 0.75rem;
+  line-height: 1.1;
+}
+
+.description-thin {
+  color: #000000;
+  font-weight: 300;
+  font-size: 0.75rem;
+  line-height: 1.2;
+}
+
+.emphasize-middle {
+  color: #5b5b5b;
+  font-weight: 600;
+  font-size: 0.875rem;
+  line-height: 1.1;
 }
 
 .hashtag {
-  @apply font-normal text-[0.6875rem] leading-[1.7];
+  color: #5b5b5b;
+  font-weight: 400;
+  font-size: 0.75rem;
+  line-height: 1.6;
 }
 
-.smaller_medium {
-  @apply font-medium text-[0.8125rem] leading-[1.1];
+.paragraph {
+  color: #666666;
+  font-weight: 900;
+  font-size: 0.625rem;
+  line-height: 2;
 }
 
-.smaller_regular {
-  @apply font-normal text-[0.8125rem] leading-[1.1];
+.rating {
+  color: #5b5b5b;
+  font-weight: 500;
+  font-size: 0.875rem;
+  line-height: 1.1;
 }
 
-.description_thin {
-  @apply font-light text-[0.75rem] leading-[1.6];
+.receipt {
+  color: #000000;
+  font-weight: 300;
+  font-size: 0.6875rem;
+  line-height: 1.6;
 }
 
-.discription_basic {
-  @apply font-normal text-[0.75rem] leading-[1.2];
+.small-title-regular {
+  color: #5b5b5b;
+  font-weight: 400;
+  font-size: 0.75rem;
+  line-height: 1.1;
 }
 
-.description_bold {
-  @apply font-bold text-[0.75rem] leading-[1.1];
+.smaller-medium {
+  color: #000000;
+  font-weight: 500;
+  font-size: 0.875rem;
+  line-height: 1.1;
 }
 
-.description_160 {
-  @apply font-normal text-[0.75rem] leading-[1.6];
+.smaller-regular {
+  color: #000000;
+  font-weight: 400;
+  font-size: 0.875rem;
+  line-height: 1.1;
 }
 
-.small_title_medium {
-  @apply font-medium text-sm leading-[1.1];
+.title-bold {
+  color: #000000;
+  font-weight: 700;
+  font-size: 1.125rem;
+  line-height: 1.1;
 }
 
-.small_title_regular {
-  @apply font-normal text-sm leading-[1.1];
+.title-bold2 {
+  color: #000000;
+  font-weight: 700;
+  font-size: 1.25rem;
+  line-height: 1.1;
 }
 
-.small_title_bold {
-  @apply font-bold text-sm leading-[1.1];
+@media (min-width: 810px) {
+  .title {
+    font-size: 2rem;
+  }
+  .subtitle {
+    font-size: 1.1875rem;
+  }
+  .section-title {
+    font-size: 0.875rem;
+  }
+  .brand {
+    font-size: 0.875rem;
+  }
+  .brand2 {
+    font-size: 0.875rem;
+  }
+  .description-thin {
+    line-height: 1.6;
+  }
+  .emphasize-middle {
+    font-size: 1rem;
+  }
+  .hashtag {
+    font-size: 0.875rem;
+  }
+  .paragraph {
+    font-size: 0.8125rem;
+  }
+  .small-title-regular {
+    font-size: 0.875rem;
+  }
+  .smaller-regular {
+    font-size: 1rem;
+  }
+  .title-bold2 {
+    font-size: 1.625rem;
+  }
 }
 
-.title_bold {
-  @apply font-bold text-base leading-[1.1];
+@media (min-width: 1200px) {
+  .title {
+    font-size: 2.5rem;
+  }
+  .subtitle {
+    font-size: 1.5rem;
+  }
+  .section-title {
+    font-size: 1.125rem;
+  }
+  .brand {
+    font-size: 1.125rem;
+  }
+  .brand2 {
+    font-size: 1.125rem;
+  }
+  .description-basic {
+    font-size: 1rem;
+  }
+  .description-bold {
+    font-size: 1rem;
+  }
+  .description-thin {
+    font-size: 1rem;
+  }
+  .emphasize-middle {
+    font-size: 1.25rem;
+  }
+  .paragraph {
+    font-size: 1rem;
+  }
+  .rating {
+    font-size: 1.5rem;
+  }
+  .receipt {
+    font-size: 0.75rem;
+  }
+  .small-title-regular {
+    font-size: 1.125rem;
+  }
+  .smaller-medium {
+    font-size: 1rem;
+  }
+  .title-bold {
+    font-size: 2rem;
+  }
+  .title-bold2 {
+    font-size: 1.75rem;
+  }
 }
 
-.title_basic {
-  @apply font-normal text-base leading-[1.1];
-}
-
-.big_title_basic {
-  @apply font-normal text-xl leading-[1.1];
-}
-
-.big_title_bold {
-  @apply font-bold text-xl leading-[1.1];
-}
-
-.graprh {
-  @apply font-medium text-[0.625rem] leading-[1.6];
+.percenti {
+  width: var(--width);
 }
