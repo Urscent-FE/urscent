@@ -1,5 +1,10 @@
+import { CarouselSlider } from '@/components/CarouselSlider';
 import React from 'react';
 
 export const MainPage = () => {
-  return <div>MainPage</div>;
+  return (
+    <div>
+      <CarouselSlider />
+    </div>
+  );
 };
