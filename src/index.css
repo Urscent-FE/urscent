@@ -248,3 +248,12 @@
 .percenti {
   width: var(--width);
 }
+
+@keyframes slide1 {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-13.5rem * 14));
+  }
+}

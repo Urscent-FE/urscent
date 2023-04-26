@@ -4,13 +4,14 @@ export const LikeIcon: React.FC<IconProps> = ({
   fill = '#000000',
   width = '24',
   height = '22',
+  fullfill = false,
 }) => {
   return (
     <svg
       width={width}
       height={height}
       viewBox="0 0 24 22"
-      fill="none"
+      fill={fullfill ? fill : 'none'}
       xmlns="http://www.w3.org/2000/svg"
     >
       <path
@@ -28,4 +29,5 @@ interface IconProps {
   fill?: string;
   width?: string;
   height?: string;
+  fullfill?: boolean;
 }
